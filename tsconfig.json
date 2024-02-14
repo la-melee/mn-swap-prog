@@ -21,6 +21,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "src/**/*",
+    "types/**/*" // Include this line if your declaration file is in a 'types' directory
+  ],
 }
